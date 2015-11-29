@@ -18,6 +18,11 @@ body {
 
 /* Set the fixed height of the footer here */
 #footer {
-  height:60px;
+  height:$footer-height;
+  color:white;
   background-color: rgba(36,32,33,0.9);
+}
+
+#footer a {
+	color:white;
 }
